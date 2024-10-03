@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Prata&display=swap'); 
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: #E6E7DD;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden; 
+}
+
+h1{
+    font-family: "Prata", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.visionboard{
+    display: flex;
+    background-color: #686867;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 4px;
+    border: 2px solid #02040F;
+    border-radius: 4px;;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 1px;
+}
+
+.itemSquare, .itemColumn{
+    display: flex;
+    background-color: #D6E0E2;
+    margin: 2px;
+}
+
+.itemSquare{
+    width: 150px;
+    height: 150px;
+}
+
+.itemColumn{
+    width: 150px;
+    height: 300px;
+}
