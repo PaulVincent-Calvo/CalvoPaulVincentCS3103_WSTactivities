@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+h1 {
+    font-family: Bebas Neue;
+}
+
+h3 {
+    font-family: Cabin;
+}
+
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #ab9593;
+    display:flex;
+}
+
+.flex-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.boxes {
+    background-color: #D8CFBC;
+    padding: 10px;
+    height: 300px;
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+
